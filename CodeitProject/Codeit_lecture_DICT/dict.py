@@ -21,3 +21,19 @@ my_family = {
 }
 
 print(my_family['mom'])
+
+print(my_family.values())
+
+print('박종서' in my_family.values())
+
+print('최승현' in my_family.values())
+
+for value in my_family.values():
+    print(value)
+
+for key in my_family.keys():
+    value = my_family[key]
+    print(key, value)
+
+for key, value in my_family.items():
+    print(key, value)
